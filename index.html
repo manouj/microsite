@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="dist/device-mockups.min.css">
+
+    <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+   crossorigin="anonymous"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+  <script src="js/scroll.js"></script>
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="navLargeScreen">
+          <nav class="navigation" id="mainNav">
+          <!-- <img src="images/nerdlab-cubeBlack.png" alt="logo" class="img-fluid ">  -->
+
+              <div class=" logoHolder">
+                <img src="images/nerdlab-cubeBlack1.png" alt="logo" class="logo">
+                <div class="social">
+                <a href="#"><i href="#" class="fab fa-facebook-square socialIcon"></i></a>
+                <a href="#"><i href="#" class="fab fa-twitter-square socialIcon"></i></a>
+                </div>
+                <div class="projectTitle">
+                <h5 class="projectName">Cops & Rubbers</h5>
+              </div>
+              </div>
+                <div class="navBar">
+            			<a class="navigation__link active" href="#1"><span class="navIcon"><i class="fas fa-book-open"></i></span>Introduction</a>
+            			<a class="navigation__link" href="#2"><span class="navIcon"><i class="fas fa-eye"></i></span>Demo</a>
+                  <a class="navigation__link" href="#3"><span class="navIcon"><i class="fas fa-images"></i></span>Gallery</a>
+            			<a class="navigation__link" href="#4"><span class="navIcon"><i class="fas fa-download"></i></span>Slidereel</a>
+            			<a class="navigation__link" href="#5"><span class="navIcon"><i class="fas fa-award"></i></span>Awards</a>
+            			<a class="navigation__link" href="#6"><span class="navIcon"><i class="fas fa-parachute-box"></i></span>Exhibitions</a>
+            			<a class="navigation__link" href="#7"><span class="navIcon "><i class="fas fa-users"></i></span>Resources</a>
+                </div>
+          </nav>
+        </div>
+        <div class="navMediumScreen">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="navigation__link" href="#1"><span class="navIcon"><i class="fas fa-book-open"></i></span>Introduction</a>
+            <a class="navigation__link" href="#2"><span class="navIcon"><i class="fas fa-eye"></i></span>Demo</a>
+            <a class="navigation__link" href="#3"><span class="navIcon"><i class="fas fa-images"></i></span>Gallery</a>
+            <a class="navigation__link" href="#4"><span class="navIcon"><i class="fas fa-download"></i></span>Slidereel</a>
+            <a class="navigation__link" href="#5"><span class="navIcon"><i class="fas fa-award"></i></span>Awards</a>
+            <a class="navigation__link" href="#6"><span class="navIcon"><i class="fas fa-parachute-box"></i></span>Exhibitions</a>
+            <a class="navigation__link" href="#7"><span class="navIcon "><i class="fas fa-users"></i></span>Resources</a>
+          </div>
+
+          <div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Cops & Rubbers</span>
+          </div>
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+          }
+
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+            document.body.style.backgroundColor = "white";
+          }
+          </script>
+        </div>
+        <div class="col-lg-12 col-md-12 sections" id="test">
+
+          <div class="page-section hero" id="1">
+            <div class="imgContainer">
+              <img class="headImage" src="images/eradicate_bglanding.jpg" alt="headImage">
+            </div>
+            <h4>Vector-Borne Disease Education</h4>
+            <p class="justifyText">
+              Eradicate! is a single-player card game in which you are a village leader tasked with managing a small team in an effort to eradicate mosquitoes. Clear water and mosquito eggs (larva) from identified breeding grounds before the mosquitoes attack and weaken your team with a debilitating vector-borne disease.
+
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+                <!-- <header class="imgContainer">
+                  <img src="images/C&R_logo_large.png" alt="Logo" id="headImage"/>
+                </header> -->
+          </div>
+
+          <div class="page-section" id="2">
+            <div class="row">
+            <div class="col-12 col-md-4 col-lg-4">
+              <div class="device-wrapper deviceRight">
+                <div class="device" data-device="iPhone7" data-orientation="portrait" data-color="white">
+                  <div class="screen">
+                    <!-- PUT CONTENTS HERE -->
+                    <video  width="100%" controls>
+                        <source src="videos/IMG_4614.MOV" type="video/mp4">
+                              Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <!-- <div class="button">
+                   You can hook the "home button" to some JavaScript events or just remove it
+                  </div> -->
+                </div>
+              </div>
+              </div>
+            <div class="col-12 col-md-8 col-lg-8 demoText justifyText">
+            <p>Gameplay description here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  sed diam nonummy nibh euismod tincidunt
+
+                ut laoreet dolore magna aliquam erat volut-pat. Ut wisi enim ad minim veniam, quis no-Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  sed diam nonummy nibh euismod tincidunt
+                ut laoreet dolore magna aliquam erat volut-pat. Ut wisi enim ad minim veniam, quis no-
+            </p>
+            <div class="downloadButtons">
+              <img src="images/image_preview.png" alt"playstore" class="downloadImage">
+              <img src="images/apple-app-store-download.png" alt"playstore" class="downloadImage">
+            </div>
+            </div>
+
+          </div>
+
+          <hr>
+          <div class="row">
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="device-wrapper deviceRight" style="max-width:100%">
+              <div class="device" data-device="iPhone7" data-orientation="landscape" data-color="white">
+                <div class="screen">
+                  <!-- PUT CONTENTS HERE -->
+                  <video  width="100%" controls>
+                      <source src="videos/ZooRushGameplay.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                  </video>
+                </div>
+                <!-- <div class="button">
+                 You can hook the "home button" to some JavaScript events or just remove it
+                </div> -->
+              </div>
+            </div>
+            </div>
+          <div class="col-12 col-md-6 col-lg-6  demoText justifyText">
+          <p>Gameplay description here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  sed diam nonummy nibh euismod tincidunt
+
+          ut laoreet dolore magna aliquam erat volut-pat. Ut wisi enim ad minim veniam, quis no-Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  sed diam nonummy nibh euismod tincidunt
+          ut laoreet dolore magna aliquam erat volut-pat. Ut wisi enim ad minim veniam, quis no-
+          </p>
+          <div class="downloadButtons">
+            <img src="images/image_preview.png" alt"playstore" class="downloadImage">
+            <img src="images/apple-app-store-download.png" alt"playstore" class="downloadImage">
+          </div>
+          </div>
+
+          </div>
+          <hr>
+          <div class="row">
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="device-wrapper deviceRight" style="max-width:100%">
+              <div class="device" data-device="iPadAir2" data-orientation="landscape" data-color="white">
+                <div class="screen">
+                  <!-- PUT CONTENTS HERE -->
+                  <video  width="100%" controls>
+                      <source src="videos/ZooRushGameplay.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                  </video>
+                </div>
+                <!-- <div class="button">
+                 You can hook the "home button" to some JavaScript events or just remove it
+                </div> -->
+              </div>
+            </div>
+            </div>
+          <div class="col-12 col-md-6 col-lg-6 demoText justifyText">
+          <p>Gameplay description here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  sed diam nonummy nibh euismod tincidunt
+
+          ut laoreet dolore magna aliquam erat volut-pat. Ut wisi enim ad minim veniam, quis no-Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  sed diam nonummy nibh euismod tincidunt
+          ut laoreet dolore magna aliquam erat volut-pat. Ut wisi enim ad minim veniam, quis no-
+          </p>
+          <div class="downloadButtons">
+            <img src="images/image_preview.png" alt"playstore" class="downloadImage">
+            <img src="images/apple-app-store-download.png" alt"playstore" class="downloadImage">
+          </div>
+          </div>
+
+          </div>
+
+          <hr>
+          <div class="row">
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="device-wrapper deviceRight" style="max-width:100%">
+              <div class="device" data-device="iMac" data-orientation="portrait" data-color="black">
+                <div class="screen">
+                  <!-- PUT CONTENTS HERE -->
+                  <video  width="100%" controls>
+                      <source src="videos/ZooRushGameplay.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                  </video>
+                </div>
+                <!-- <div class="button">
+                 You can hook the "home button" to some JavaScript events or just remove it
+                </div> -->
+              </div>
+            </div>
+            </div>
+          <div class="col-12 col-md-6 col-lg-6 demoText justifyText">
+          <p>Gameplay description here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  sed diam nonummy nibh euismod tincidunt
+
+          ut laoreet dolore magna aliquam erat volut-pat. Ut wisi enim ad minim veniam, quis no-Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  sed diam nonummy nibh euismod tincidunt
+          ut laoreet dolore magna aliquam erat volut-pat. Ut wisi enim ad minim veniam, quis no-
+          </p>
+          <div class="downloadButtons">
+            <img src="images/image_preview.png" alt"playstore" class="downloadImage">
+            <img src="images/apple-app-store-download.png" alt"playstore" class="downloadImage">
+          </div>
+          </div>
+
+          </div>
+
+          </div>
+
+
+          <div class="page-section" id="3">
+            <div class="container-fluid">
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+            <div class="d-flex flex-column">
+                <img src="images/StoreCoverArt Landscape.png" class="img-fluid">
+
+                <img src="images/StoreCoverArt Portrait.png" class="img-fluid">
+            </div>
+
+            <div class="d-flex flex-column">
+                <img src="images/VRLandscape.png" class="img-fluid">
+
+              <img src="images/StoreCoverArt Portrait.png" class="img-fluid">
+            </div>
+
+            <div class="d-flex flex-column">
+              <img src="images/StoreCoverArt Portrait.png" class="img-fluid">
+
+                <img src="images/VRLandscape.png" class="img-fluid">
+            </div>
+
+        </div>
+    </div>
+          </div>
+
+
+          <div class="page-section" id="4">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img class="d-block w-100" src="images/StoreCoverArt Landscape.png" alt="First slide">
+  </div>
+  <div class="carousel-item">
+    <img class="d-block w-100" src="images/StoreCoverArt Landscape.png" alt="Second slide">
+  </div>
+  <div class="carousel-item">
+    <img class="d-block w-100" src="images/StoreCoverArt Landscape.png" alt="Third slide">
+  </div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+          </div>
+          <div class="page-section" id="5">
+            <div class="container">
+              <h2>Awards</h2>
+               <section class="customer-logos slider">
+
+                  <div class="slide"><img src="images/balefirelabs.png"></div>
+                  <div class="slide"><img src="images/aejmc-firstplace.png"></div>
+                  <div class="slide"><img src="images/balefirelabs.png"></div>
+                  <div class="slide"><img src="images/aejmc-firstplace.png"></div>
+                  <div class="slide"><img src="images/balefirelabs.png"></div>
+                  <div class="slide"><img src="images/aejmc-firstplace.png"></div>
+                  <div class="slide"><img src="images/balefirelabs.png"></div>
+                  <div class="slide"><img src="images/aejmc-firstplace.png"></div>
+               </section>
+            </div>
+          </div>
+          <div class="page-section exhibitions" id="6">
+            <div class="row">
+              <div class="col-8">
+              <h3>Exhibit Name 1</h3>
+              <h5>Place, Date and Time </h5>
+                <p>Echo Earth was selected as one of 48 projects for exhibition at the 2017 ACCelerate Creativity and Innovation Festival at the Smithsonian National Museum of American History in Washington, D.C., from October 13-15, 2017. The festival had over 10,000 visitors each day, thousands of which got to experience Echo Earth first hand. Participants spanned many ages, including multi-generational families.
+
+Special thanks to Samsung for their generous sponsorship of hardware, including numerous Samsung Gear VR sets and Smart TVs, during the festival.
+
+The festival is a celebration of creative exploration and research happening across the ACC at the nexus of science, engineering, arts and design (SEAD). It is an opportunity for all ACC schools to showcase their work to each other, potential ACC students and their parents, alumni, companies, legislators, and invited guests from the nation’s capital.
+
+Smithsonian Magazine highlighted Echo Earth in its "These Collegiate Innovators Are at the Vanguard of Technology and Art" article summarizing the weekend festivites.
+                </p>
+              </div>
+              <div class="col-4">
+                <img class="exhibitionLogo" src="images/acc-logo-black.png">
+              </div>
+            </div>
+
+            <div class="container text-center my-3 exhibitionImages">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item row no-gutters active">
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/222/fff?text=1"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/444?text=2"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/888?text=3"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/111/fff?text=4"></div>
+                        </div>
+                        <div class="carousel-item row no-gutters">
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280?text=5"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/555?text=6"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/333/fff?text=7"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/bbb?text=8"></div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-8">
+              <h3>Exhibit Name 2</h3>
+              <h5>Place, Date and Time </h5>
+                <p>Echo Earth was selected as one of 48 projects for exhibition at the 2017 ACCelerate Creativity and Innovation Festival at the Smithsonian National Museum of American History in Washington, D.C., from October 13-15, 2017. The festival had over 10,000 visitors each day, thousands of which got to experience Echo Earth first hand. Participants spanned many ages, including multi-generational families.
+
+Special thanks to Samsung for their generous sponsorship of hardware, including numerous Samsung Gear VR sets and Smart TVs, during the festival.
+
+The festival is a celebration of creative exploration and research happening across the ACC at the nexus of science, engineering, arts and design (SEAD). It is an opportunity for all ACC schools to showcase their work to each other, potential ACC students and their parents, alumni, companies, legislators, and invited guests from the nation’s capital.
+
+Smithsonian Magazine highlighted Echo Earth in its "These Collegiate Innovators Are at the Vanguard of Technology and Art" article summarizing the weekend festivites.
+                </p>
+              </div>
+              <div class="col-4">
+                <img class="exhibitionLogo" src="images/logo_frost.png">
+              </div>
+            </div>
+
+            <div class="container text-center my-3 exhibitionImages">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item row no-gutters active">
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/222/fff?text=1"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/444?text=2"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/888?text=3"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/111/fff?text=4"></div>
+                        </div>
+                        <div class="carousel-item row no-gutters">
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280?text=5"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/555?text=6"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/333/fff?text=7"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/bbb?text=8"></div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="container clients">
+               <section class="customer-logos slider">
+                  <div class="slide"><img src="images/Logo_UMInteractive_blackText.png"></div>
+                  <div class="slide"><img src="images/mwunity-logo.png"></div>
+                  <div class="slide"><img src="images/samsung-gear-vr.png"></div>
+
+               </section>
+            </div>
+
+
+            <div class="container testimonials">
+            	<div class="row">
+            		<div class="col-md-10 col-center m-auto">
+            			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+            				<!-- Carousel indicators -->
+            				<!-- <ol class="carousel-indicators">
+            					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            					<li data-target="#myCarousel" data-slide-to="1"></li>
+            					<li data-target="#myCarousel" data-slide-to="2"></li>
+            				</ol> -->
+            				<!-- Wrapper for carousel items -->
+            				<div class="carousel-inner testimonialText">
+            					<div class="item carousel-item active">
+            						<p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+            						<p class="overview"><b>Famous Personality 1</b>, Designer</p>
+            					</div>
+            					<div class="item carousel-item">
+            						<p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+            						<p class="overview"><b>Famous Personality 2</b>, Developer</p>
+            					</div>
+            					<div class="item carousel-item">
+            						<p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+            						<p class="overview"><b>Famous Personality 3</b>, Writer</p>
+            					</div>
+            				</div>
+            				<!-- Carousel controls -->
+            				<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+            					<i class="fa fa-angle-left"></i>
+            				</a>
+            				<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+            					<i class="fa fa-angle-right"></i>
+            				</a>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+
+          </div>
+          <div class="page-section lastSection" id="7">
+          	<div class="container">
+              <div class="row" style="background:#fff">
+                <div class="col-4">
+                <div class="teamMember">
+                  <img class="teamMemberPhoto" src="images/clay.png" alt="">
+                  <p class="h4">Clay Ewig</p>
+                  <p class="h6">Co-Director</p>
+                <h3>  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-twitter-square"></i>
+                  <i class="fab fa-instagram"></i></h3>
+                </div>
+                </div>
+                <div class="col-4">
+                  <div class="teamMember">
+                    <img class="teamMemberPhoto" src="images/lien.png" alt="">
+                    <p class="h4">Lien Tran</p>
+                    <p class="h6">Co-Director</p>
+                    <h3><i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i></h3>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="teamMember">
+                    <img class="teamMemberPhoto" src="images/jose.png" alt="">
+                    <p class="h4">Jose Guzman</p>
+                    <p class="h6">Interactive Developer</p>
+                    <h3><i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i></h3>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="teamMember">
+                    <img class="teamMemberPhoto" src="images/casey.jpg" alt="">
+                    <h3><p class="h4">Casey Lue</p>
+                    <p class="h6">Designer</p>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i></h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+        </div>
+      </div>
+
+<footer>
+<div class="col-12 footerContent">
+  <p>© 2019 NERDLab All rights reserved</p>
+</div>
+</footer>
+
+
+  </body>
+
+
+</html>
