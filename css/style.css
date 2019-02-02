@@ -6,6 +6,9 @@
 
 html, body {
   height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+
 }
 
 h1 {
@@ -14,8 +17,9 @@ h1 {
 
 .page-section {
   min-height: auto ;
-  margin-top: 2%;
+  /* margin-top: 2%; */
   padding: 3em;
+  padding-top:0px;
   /* background: linear-gradient(45deg, #43cea2 10%, #185a9d 90%); */
   color: white;
   /* box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1); */
@@ -359,11 +363,12 @@ h2{
 
 .downloadButtons
 {
-  width:200px;
+  width:100%;
+  text-align: center;
 }
 .downloadImage
 {
-  width:100%;
+  width:200px;
 }
 
 .clients
@@ -440,12 +445,16 @@ h2{
   display:none;
   z-index:99;
 }
+
+/* width: 100vw;
+margin-left: -64px; */
 .navMediumScreen
 {
   position:fixed;
   display:block;
   z-index:99 !important;
-  background: #fff;
+  background: #1b1b1b;
+  color:#FFFFFF;
   width:100vw;
   padding-left: 20px;
 }
@@ -453,6 +462,11 @@ h2{
 
 @media (min-width: 991.99px) {
   .navLargeScreen{
+    background: #f9f9f9;
+    width: 250px;
+    height: 100vh;
+    float: left;
+    position: fixed;
     display:block;
     z-index:99;
   }
@@ -476,4 +490,24 @@ h2{
     padding-left:0px !important;
     padding-right: 0px !important;
   }
+  .headImage{
+    width: 100vw;
+margin-left: -32px;
+  }
+}
+.device-wrapper
+{
+  margin:auto;
+}
+
+
+@media (min-width:570.1px)
+{
+  .headImage{
+    width: 100vw;
+    margin-left: -64px;
+  }
+}
+.footerContent{
+  z-index: 100;
 }
